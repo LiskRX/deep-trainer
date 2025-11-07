@@ -1,0 +1,75 @@
+/* --- Deepwoken Reaction Trainer Style --- */
+
+/* Dark theme background + gothic font */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Montserrat:wght@400;600&display=swap');
+
+body {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 2.5rem;
+  color: #bfa97e;
+  margin-bottom: 30px;
+  text-shadow: 0 0 8px rgba(191,169,126,0.5);
+}
+
+button {
+  background: #1a1a1a;
+  color: #e0e0e0;
+  border: 2px solid #bfa97e;
+  border-radius: 12px;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #bfa97e;
+  color: #0a0a0a;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(191,169,126,0.5);
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Flash signal effect */
+.signal {
+  background-color: #bfa97e;
+  color: #0a0a0a;
+  transition: background-color 0.1s ease;
+}
+
+/* Mode toggle button styling */
+#modeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: 1px solid #bfa97e;
+  color: #bfa97e;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
+
+#modeToggle:hover {
+  background: #bfa97e;
+  color: #0a0a0a;
+}
